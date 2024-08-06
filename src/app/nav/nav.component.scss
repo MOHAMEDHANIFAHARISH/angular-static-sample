@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+ul.navigation{
+    display: flex;
+    li{
+        list-style: none;
+        display: flex;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        height: 10px;
+        padding: 10px;
+        margin-right: 100px;
+    }
+}
+.active{
+    background-color: rgba(0, 0, 0, 0.29);
+    border-radius: 5px;
+    padding: 5px;
+}
