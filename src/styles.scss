@@ -6,11 +6,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    margin: 0;
+    margin: 10px;
     background-image: url(/assets/bg.png);
 }
-.active{
+.actively{
     background-color: rgba(0, 0, 0, 0.29);
     border-radius: 5px;
-    padding: 5px;
+
 }

@@ -1,11 +1,49 @@
-<h1>Anna Silicon Technology Private Limited</h1>
+<!-- <h1>Anna Silicon Technology Private Limited</h1>
+<div class="nav-container ">
+  <ul class="nav">
+    <li routerLinkActive="actively" routerLink="home" class="nav-item"><i class='bx bxs-home' style='color:#ffffff' ></i>&nbsp;HOME</li>
+    <li routerLinkActive="actively" routerLink="product" class="nav-item"><i class='bx bxs-business'></i>&nbsp;PRODUCT</li>
+    <li routerLinkActive="actively" routerLink="about" class="nav-item"><i class='bx bxs-user-circle'></i>&nbsp;ABOUT US</li>
+  </ul>
+</div> -->
 
-<ul class="navigation">
-  <li [routerLinkActive]="'active'" [routerLink]="['/home']"><img src="../assets/home (2).png">&nbsp;&nbsp;<p>Home</p></li>
-  <li [routerLinkActive]="'active'"  [routerLink]="['/product']"><img src="../assets/box.png" alt="">&nbsp;&nbsp;<p>Products</p></li>
-  <li [routerLinkActive]="'active'"  [routerLink]="['/about']"><img src="../assets/info-button.png" alt="">&nbsp;&nbsp;<p>About us</p></li>
-</ul>
 
 
+<header>
+<div class="row">
+  <div class="col-md-3 col-sm-3 col-3">
+    <div class="logo">
+     <img width="50px" src="/assets/logo.png" alt="">
+    </div>
+  </div>
+  <div class="col-md-9 col-sm-9 col-9 text-end">
+    <div class="menu-icon" [class.menu_icon_Class]="menu_icon_variable"(click)="openMenu()"><i class='bx bxs-grid-alt' style='color:#ffffff'  ></i></div>
+    <div class="menu-icon" [class.menu_icon_Class1]="menu_icon_variable1"(click)="openMenu()"><i class='bx bx-x' style='color:#ffffff'  ></i></div>
+    <div class="nav-container" [class.menuClass]="menuVariable">
+      <ul>
+        <li routerLinkActive="actively" routerLink="home" (click)="closeNav()" ><i class='bx bxs-home' style='color:#ffffff' ></i>&nbsp;HOME</li>
+    <li routerLinkActive="actively" routerLink="product" (click)="closeNav()"><i class='bx bxs-business'></i>&nbsp;PRODUCT</li>
+    <li routerLinkActive="actively" routerLink="about" (click)="closeNav()" ><i class='bx bxs-user-circle'></i>&nbsp;ABOUT US</li>
+      </ul>
+    </div>
+  </div>
 
+</div>
+</header>
 
+<!-- <nav class="navbar">
+  <div class="logo">
+    <a href="/">Logo</a>
+  </div>
+  <ul class="nav-links" [ngClass]="{ 'nav-active': isNavOpen }">
+    <li><a routerLinkActive="actively" routerLink="home" (click)="closeNav()"><i class='bx bxs-home' style='color:#ffffff' ></i>&nbsp;Home</a></li>
+    <li><a routerLinkActive="actively" routerLink="product" (click)="closeNav()"><i class='bx bxs-business'></i>&nbsp;Product</a></li>
+    <li><a routerLinkActive="actively" routerLink="about" (click)="closeNav()"><i class='bx bxs-user-circle'></i>&nbsp;About us</a></li>
+    
+  </ul>
+  <div class="burger" (click)="toggleNav()">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+  </div>
+</nav> -->

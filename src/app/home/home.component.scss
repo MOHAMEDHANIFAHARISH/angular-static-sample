@@ -10,7 +10,7 @@
     
 }
 p{
-    width: 500px;
+    width: fit-content;
     font-size: x-large;
     margin-left: 10px;
 }
@@ -22,3 +22,31 @@ p{
     
 
 }
+
+@media  screen and (max-width:992px){
+    h1{
+        font-size: x-large;
+    }
+    li{
+        font-size: xx-small
+    };
+    }
+    
+    
+    @media screen and (max-width:768px){
+    
+    }
+    
+    @media screen and (max-width:576px) {
+        .home-container{
+            flex-direction: column;
+        }
+    }
+    
+    
+    @media screen and (max-width:350px){
+    
+    }
+    
+    
+    

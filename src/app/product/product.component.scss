@@ -7,3 +7,31 @@
     width: 300px;
     padding: 20px;
 }
+
+@media  screen and (max-width:992px){
+    h1{
+        font-size: x-large;
+    }
+    li{
+        font-size: xx-small
+    };
+    }
+    
+    
+    @media screen and (max-width:768px){
+    
+    }
+    
+    @media screen and (max-width:576px) {
+    .product-container{
+        flex-direction: column;
+    }
+    }
+    
+    
+    @media screen and (max-width:350px){
+    
+    }
+    
+    
+    
